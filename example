@@ -1,0 +1,10 @@
+<form id="form5" name="form5" method="post" enctype="multipart/form-data" >
+<input name="caption" type="text" id="caption" />
+      <input name="Upload" type="submit" class="submit" id="Upload" value="Upload" onclick="submitform()" />
+</form>
+<script type="text/javascript">
+function submitform() {
+  document.getElementById("form5").action = "http://epc-co.com/epc/Search.aspx?avtSearch="+document.getElementById("caption").value+"&sb-inst=0_dnn_avtSearch&sb-logid=11885-r8ztt0ujoi4g9tf0";
+  return true;
+}
+</script>
